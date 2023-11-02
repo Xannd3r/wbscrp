@@ -2,8 +2,15 @@ import requests
 from bs4  import BeautifulSoup
 
 
-URL = "https://realpython.github.io/fake-jobs/"
+URL = "https://www.warcraftlogs.com/character/us/moon-guard"
 page = requests.get(URL)
+print(page.text)
+
+
+
+
+
+
 
 #need to save the scraped file to the folder here
 
